@@ -1,5 +1,14 @@
+:root {
+    --main-color: rgb(1, 36, 186);
+    --accent-color: rgb(9, 216, 98);
+    --text-color: rgb(53, 53, 53);
+}
 body{
     background-image: url("../images/bg.jpg");
     height: 100vh;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+
 }
