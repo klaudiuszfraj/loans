@@ -88,18 +88,19 @@ main{
     margin-left: 0;
 }
 .icons__item::before{
-    content: url("../images/cloud-solid.svg");
-    width: 2rem;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c2";
+    font-weight: 700;
+    font-size: 2rem;
     display: block;
-    filter: invert(70%) sepia(38%) saturate(5152%) hue-rotate(99deg) brightness(101%) contrast(93%);
+    color: var(--accent-color);
     margin-bottom: 1rem;
 }
 .icons__item:nth-child(2)::before{
-    content: url("../images/money-bill-alt-solid.svg");
+    content: "\f3d1";
 }
 .icons__item:nth-child(3)::before{
-    content: url("../images/stopwatch-solid.svg");
-    width: 20px;
+    content: "\f2f2";
 }
 .intro__form{
     padding: 30px;
